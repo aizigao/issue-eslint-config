@@ -1,17 +1,12 @@
-<script setup></script>
+<script setup>
+const test = ref(false)
+</script>
 
 <template>
-  <div v-if="false &&
-   true">
+  <div class='test && "good"'>
     test
   </div>
 </template>
 
 <style scoped>
-div {
-  
-  
-  color: #000;
-  background-color: yellow;
-}
 </style>
